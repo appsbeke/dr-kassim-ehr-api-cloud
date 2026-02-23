@@ -1,0 +1,21 @@
+{
+  "name": "dr-kassim-ehr-api-simple",
+  "version": "1.0.0",
+  "description": "Simple EHR API for Dr. Kassim",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "serverless-http": "^3.2.0",
+    "node-fetch": "^2.6.7"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "author": "Dr. Braimah Kassim",
+  "license": "MIT"
+}
